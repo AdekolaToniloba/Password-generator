@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>PassWodr</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text">
+        <h1>Generate a <span>random password</span></h1>
+        <p>Never use an insecure password again.</p>
+      </div>
+      <div class="buttons">
+        <button type="submit" onclick="showPassword()">
+          Generate Passwords
+        </button>
+      </div>
+
+      <div class="text-fields">
+        <div class="password-field">
+          <p onclick="copyPassword()" id="passwordOne"></p>
+        </div>
+        <div class="password-field" id="passwordTwo">
+          <p onclick="copyPassword()" id="passwordOne"></p>
+        </div>
+        <!-- <input type="text" name="passwordOne" id="passwordOne" />
+        <input type="text" name="passwordTwo" id="passwordTwo" /> -->
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
