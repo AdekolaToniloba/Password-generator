@@ -35,6 +35,10 @@ function showPassword() {
 
 }
 
+function toggleDarkMode() {
+    var element = document.body;
+    element.classList.toggle("darkmode");
+}
 
 function copyPassword() {
     let copyText = [passOneEl, passTwoEl]
@@ -46,3 +50,4 @@ function copyPassword() {
     // navigator.clipboard.writeText(copyText.value);
     // alert("Copied the text: " + copyText.value);
 }
+
